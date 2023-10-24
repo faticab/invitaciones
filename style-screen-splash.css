@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    background-image: url('telarañas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#video {
+    display: none;
+}
+
+#nombre {
+    margin-top: -5rem;
+    margin-bottom: 40px;
+    color: white;
+    font-family: 'Henny Penny', cursive;
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-principal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    
+    <title>Bienvenidos a los 5 años de Avril</title>
+</head>
+
+<body>
+        <section id="portada-invitacion">
+        <div class="container-fluid">
+            <div class="row portada-detalles">
+                <div class="col-md-7" id="video-merlina">
+                    <video class="w-100" height="auto" autoplay muted loop>
+                        <source src="/merlina.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-4 portada-texto" id="texto-portada">
+                    <h1 class="d-none d-md-block" id="h-portada">¡Prepárate para un cumpleaños mágico!</h1>
+                    <h3 class="d-md-none" id="h-portada">¡Prepárate para un cumpleaños mágico!</h3>
+                    <br>
+                    <p class="d-none d-md-block" id="p-portada">Estás cordialmente invitado al cumpleaños N° 5 de Avril, donde la magia de Merlina Addams cobrará vida. Únete a
+                        nosotros en esta aventura llena de sorpresas y diversión. ¡No faltes!</p>
+                    <p class="d-md-none small" id="p-portada">Estás cordialmente invitado al cumpleaños N° 5 de Avril, donde la magia de Merlina Addams cobrará vida. Únete a nosotros en esta aventura llena de sorpresas y diversión. ¡No faltes!</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section id="fecha-lugar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" id="texto-fecha">
+                    <div class="bg-white p-3 text-left m-0 fondo-grande" id="fondo-grande">
+                        <h2 id="titulo-h2">MI CUMPLE</h2>
+                    </div>
+                    <div class="bg-white p-3 text-left fondo-chico" id="fondo-chico">
+                        <h3 id="titulo-h3"> MI CUMPLE</h3>
+                    </div>
+                    <div class="bg-claro custom-bg text-center background-tarjeta" id="texto-card">
+                            <p class="text-sm dia">29 de Octubre 2023</p>
+                            <p class="text-sm dia">Domingo</p>
+                            <p class="text-sm hora">De 18 a 21 hs </p>
+                            <br>
+                            <p class="text-sm direccion">Av. Solari N° 2345</p>
+                    </div>
+                    <div class="text-center map" id="grande">   
+                        <div class="map-cumple">
+                            <a href="https://maps.app.goo.gl/NCNgSpjgNkGwdAdMA" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#5f3670" class="bi  bi-geo-alt-fill" viewBox="0 0 16 16"
+                                id="svg-loc">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="/gato-negro-animado.gif" alt="gato-gif" id="gato-gif">
+                    </div>
+                    <div class="separator"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="countdown-time">
+        <div class="container-fluid background">
+            <div class="row">
+                <h2 class="h2-countdown">Faltan...</h2>
+                <div class="col-2 text-center countdown">
+                    <div class="d-block countdown-item">
+                        <span class="items" id="dias">0</span>
+                        <br>
+                        <span class="dias" style="font-size:1.5rem ;">Días</span>
+                    </div>
+                </div>
+                <div class="col-2 text-center  countdown">
+                    <div class="d-block countdown-item">
+                        <span class="items" id="horas">0</span>
+                        <br>
+                        <span class="horas" style="font-size:1.5rem ;">Horas</span>
+                    </div>
+                </div>
+                <div class="col-2  text-center countdown">
+                    <div class="d-block countdown-item">
+                        <span class="items"  id="minutos">0</span>
+                        <br>
+                        <span class="minutos" style="font-size:1.5rem ;">Minutos</span>
+                    </div>
+                </div>
+                <div class="separator"></div>
+            </div>
+        </div>
+    </section>
+    <section class="asistencia">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-7 asistencia">
+                    <video width="100%" autoplay loop muted>
+                        <source src="/merlina-baile.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-4 text-center asistencia">
+                    <h2 class="h2-asistencia">Asistirás?</h2>
+                    <a href="https://wa.me/59899338931?text=¡Confirmo mi asistencia al cumple de Avril!"
+                        class="btn asistencia-btn" style="background-color:purple; color:white">Confirmar asistencia aquí (Eliana)</a>
+                        <img src="/araña.png" alt="araña-icon" class="text-center araña-asistencia">
+                    <a href="https://wa.me/59899734863?text=¡Confirmo mi asistencia al cumple de Avril!"
+                        class="btn btn-success asistencia-btn">Confirmar asistencia aquí (Wilmar)</a>
+                </div>
+            </div>                    
+        </div>
+    </section>
+        <footer class="footer text-center footer-componentes">
+                    <p class="copyright">&copy; 2023 Sky - Web Solutions</p>
+                    <img src="/logo-ig-black.png" alt="Instagram" width="17px" height="17px" class="logo-ig">
+                    <a href="http://www.instagram.com/sky.websolutions" target="_blank" class="a-footer">Síguenos en Instagram</a>
+
+        </footer>
+    </div>
+        
+
+    <script src="principal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

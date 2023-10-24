@@ -8,6 +8,6 @@ botonEntrada.addEventListener('click', function() {
     video.style.display='block';
     video.play();
     video.addEventListener('ended', function() {
-        window.location.href = '/principal.html';
+        window.location.href = 'principal.html';
     });
 });

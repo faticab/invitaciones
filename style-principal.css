@@ -120,7 +120,7 @@ section {
 }
 
 .background-tarjeta {
-    background-image: url('/marco.png');
+    background-image: url('marco.png');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
